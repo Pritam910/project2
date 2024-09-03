@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #393939;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        section {
+            flex: 3;
+            margin-right: 20px;
+        }
+        article {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        aside {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Blog</h1>
+        <p>Sharing my thoughts and experiences</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>My First Blog Post</h2>
+                <p><em>Posted on September 1, 2024 by Jane Doe</em></p>
+                <p>Welcome to my personal blog! In this post, I'll be sharing my journey into web development. It's been an exciting ride so far, and I'm eager to share what I've learned along the way.</p>
+                <h3>Web Development Resources</h3>
+                <p>Here are some of the resources I found helpful:</p>
+                <ul>
+                    <li>HTML & CSS: <a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                    <li>JavaScript: <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+                    <li>Version Control: <a href="https://github.com" target="_blank">GitHub</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Understanding HTML Tables</h2>
+                <p><em>Posted on August 28, 2024 by Pritam</em></p>
+                <p>Tables are a great way to display data in a structured format. Below is an example of a simple HTML table:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Language</th>
+                            <th>Proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Intermediate</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Beginner</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h2>Integrating Multimedia</h2>
+                <p><em>Posted on August 25, 2024 by Pritam</em></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dfQw4w9WgXcQ" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Categories</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Programming</li>
+                <li>Personal</li>
+            </ul>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Understanding HTML Tables</a></li>
+                <li><a href="#">My First Blog Post</a></li>
+                <li><a href="#">Integrating Multimedia</a></li>
+            </ul>
+            <h3>Subscribe</h3>
+            <form>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="submit" value="Subscribe">
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jane Doe. All rights reserved.</p>
+        <p>Follow me on 
+            <a href="https://twitter.com" target="_blank">Twitter</a>, 
+            <a href="https://facebook.com" target="_blank">Facebook</a>, 
+            <a href="https://instagram.com" target="_blank">Instagram</a>.
+        </p>
+        <p>Contact me at <a href="mailto:pritam@example.com">pritam@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
